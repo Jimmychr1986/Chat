@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container-padre{
+    display: flex;
+    border: 2px;
+    height: 100 px;
+    align-items: center; 
+    gap: 10px; 
+    border: 2px solid orange;
+}
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+    border: 2px;
+    height: 100 px;
+    width: 100px;
+    border: 2px solid rgb(29, 173, 24);    
+}
+
+.rightcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: auto;
+    background-color: blueviolet;
+    border: 2px solid rgb(27, 24, 173); 
+}
