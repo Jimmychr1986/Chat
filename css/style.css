@@ -2,38 +2,385 @@
 
 .container-padre{
     display: flex;
-    border: 2px;
-    height: 100 px;
+    height: 600px;
     align-items: center; 
     gap: 10px; 
     border: 2px solid orange;
 }
 
-.leftcontainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    gap: 10px; 
-    border: 2px;
-    height: 100 px;
-    width: 200px;
-    border: 2px solid rgb(29, 173, 24);    
-}
-
 .rightcontainer{
     display: flex;
-    flex-direction: column;
-    align-content: center; 
-    justify-content: center;
-    margin-left: 400px;
+    flex-direction: column; 
+    border: 2px;
+    height: 595px;
+    width: 1100px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    background-color: beige;
     border: 2px solid rgb(27, 24, 173); 
 }
 
-.hand{
+.imghand{
     display: flex;
     flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 400px;
     align-items: center; 
     justify-content: center;
     border: 2px solid rgb(24, 173, 44); 
 }
 
+.Networ{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 400px;
+    margin-left: 300px;
+    border: 2px solid rgb(211, 207, 210); 
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 400px;
+    margin-left: 300px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 400px;
+    margin-left: 300px;
+    border: 2px solid rgb(190, 207, 36); 
+}
+
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column; 
+    border: 2px;
+    height: 595px;
+    width: 270px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    border: 2px solid rgb(29, 173, 24);    
+}
+
+.principalcontact{
+    display: flex;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(9, 66, 104); 
+}
+
+.imgprincipalcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    height: 40px;
+    width:50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameprincipalcontact{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width:50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+.estatecontact{
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    width:50px;
+    margin-left: -50px;
+    margin-top: 60px;
+    border: 2px solid rgb(223, 116, 16); 
+}
+
+.icons{
+    width:50px;
+    margin-left: 90px;
+}
+
+.newchat{
+    display: flex;
+    flex-direction: column; 
+    height: 60px;
+    width: 265px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    border: 2px solid rgb(29, 173, 24);    
+}
+
+.button{
+    cursor: pointer;
+    background-color: rgb(190, 50, 224);
+    width: 200px;
+    color: white;
+
+}
+
+.Juanita{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.Juanitaimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameJuanita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+
+.Alberto{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.Albertoimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameAlberto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+
+.Ignacio{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.Ignacioimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameIgnacio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+.Cristian{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.Cristianimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameCristian{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+
+.MariaJ{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.MariaJimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameMariaJ{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+
+.Gonzalo{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.Gonzaloimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameGonzalo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+.JuanP{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.JuanPimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameJuanP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
+
+.Magadalena{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width:265px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.Magadalenaimg{
+    display: flex;
+    flex-direction: row;
+    border-radius: 60%;
+    height: 40px;
+    width:50px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(179, 43, 145); 
+}
+
+.nameMagadalena{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width:180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 179, 43); 
+}
