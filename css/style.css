@@ -30,7 +30,10 @@
     margin-left: 400px;
     align-items: center; 
     justify-content: center;
-    border: 2px solid rgb(24, 173, 44); 
+}
+.hand{
+    height: 200px;
+    width: 200px;
 }
 
 .Networ{
@@ -39,7 +42,32 @@
     height: 50px;
     width: 400px;
     margin-left: 300px;
-    border: 2px solid rgb(211, 207, 210); 
+}
+
+.textonet{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.textochat{
+    font-size: 15px;
+    text-align: center;
+    text-orientation: sideways-right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.cursiva{
+    font-weight: bold;
+    font-style: italic; 
+}
+
+.textocontact{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;    
 }
 
 .chat{
@@ -48,7 +76,6 @@
     height: 50px;
     width: 400px;
     margin-left: 300px;
-    border: 2px solid rgb(179, 43, 145); 
 }
 
 .contact{
